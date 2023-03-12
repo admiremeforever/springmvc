@@ -9,7 +9,7 @@
 </head>
 <body>
 	<h1>This is home page</h1>
-	<h2>Here we will have a description on ow to use this application</h2>
+	<h2>Here we will have a description on how to use this application</h2>
 	<p>Step 1: go to Url "http://localhost:8080/springmvc/contact"</p>
 	<p>Step 2: Fill the form as per the required details and click on
 		submit button "</p>

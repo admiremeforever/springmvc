@@ -35,6 +35,9 @@ public class ContactController {
 	@RequestMapping(value = "/processform", method = RequestMethod.POST)
 	public String handleForm(@ModelAttribute User user, Model model) {
 		System.out.println(user);
+		if(user.getUserName().isBlank()) {
+			return "redirect:/contact";
+		}
 		// process
 		int createdUser = this.userService.createUser(user);
 		// model.addAttribute("user", user);
